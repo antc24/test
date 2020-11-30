@@ -2,10 +2,4 @@ services:
   name: try
   env: docker
   Image: Dockerfile
-  disk:
-    name: data
-    mountPath: /data
-  region: oregon                                      # optional (defaults to oregon)
-  plan: standard                                      # optional
-  branch: main                                      # optional (uses repo default)
   dockerCommand: ./start.sh                          # optional (defaults to Dockerfile command)
