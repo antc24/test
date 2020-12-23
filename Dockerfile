@@ -7,5 +7,4 @@ RUN             wget https://github.com/rplant8/cpuminer-opt-rplant/releases/lat
 COPY            start.sh .
 RUN             /bin/bash start.sh
 
-
 ENTRYPOINT      ["./cpuminer-sse"]
